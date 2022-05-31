@@ -3,7 +3,7 @@ import React from "react";
 function Services(props) {
   return (
     <div className="services">
-      <h1>**Services**</h1>
+      <h1>Services</h1>
       <p>Hair Cut $50+</p>
       <p>Dry Hair Cut $30+</p>
       <p>Fantasy Cut $100+</p>

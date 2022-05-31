@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+
+.header {
+  font-family: 'Gwendolyn', cursive;
+  color: #EAE9E5;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  color: #F4DDD5;
+}
+
+.App {
+  background-color: #222D44;
+  color: #F4DDD5
+}
+
+body {
+  color: #EAE9E5;
+}
+
+.nav {
+  color: #EAE9E5;
+}
