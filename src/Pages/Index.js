@@ -35,9 +35,11 @@ function Index(props) {
     return props.stylists.map((stylist) => (
       <div key={stylist._id} className="stylist">
         <Link to={`/stylists/${stylist._id}`}>
-          <h1>{stylist.name}</h1>
+          <h1>
+            {stylist.name}, {stylist.level}
+          </h1>
         </Link>
-        <h3>{stylist.level}</h3>
+        {/* <h3>{stylist.level}</h3> */}
       </div>
     ));
   };
