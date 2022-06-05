@@ -6,8 +6,6 @@ function Footer(props) {
     <div className="footer">
       <div className="little footer">
         <p>Bellegente</p>
-        <p>1234 Rainbow Lane, Florence, MilkyWay</p>
-        <p>987-258-9137</p>
         <p>INSERT SOCIAL MEDIA ICONS HERE PLEASE</p>
       </div>
       <nav className="nav">

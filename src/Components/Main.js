@@ -7,7 +7,8 @@ import Services from "../Pages/Services";
 function Main(props) {
   const [stylists, setStylists] = useState(null);
 
-  const URL = "http://localhost:3001/stylists";
+  const URL = "http://localhost:3001/stylists/";
+  // const URL = "https://salonapp-backend-jr.herokuapp.com/stylists/";
 
   const getStylists = async () => {
     const response = await fetch(URL);
@@ -68,7 +69,7 @@ function Main(props) {
             <Show
               stylists={stylists}
               updateStylist={updateStylist}
-              deleteStylists={deleteStylist}
+              deleteStylist={deleteStylist}
             />
           }
         />

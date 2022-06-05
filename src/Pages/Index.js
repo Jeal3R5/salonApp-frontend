@@ -48,6 +48,7 @@ function Index(props) {
   };
   return (
     <section className="indexForm">
+      {props.stylists ? loaded() : loading()}
       <form onSubmit={handleSubmit}>
         <input
           type="text"
@@ -86,7 +87,6 @@ function Index(props) {
         />
         <input type="submit" value="Create Stylist" />
       </form>
-      {props.stylists ? loaded() : loading()}
     </section>
   );
 }
