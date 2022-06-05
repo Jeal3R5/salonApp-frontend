@@ -9,6 +9,7 @@
 .header {
   font-family: 'Gwendolyn', cursive;
   color: #EAE9E5;
+  text-decoration: underline;
 }
 
 h1 {
@@ -27,16 +28,29 @@ body {
 }
 
 .nav {
-  color: #EAE9E5;
+  /* color: #EAE9E5; */
+  color: #F4DDD5;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1em;
+  justify-content: center;
+  margin-top: 1em;
+  margin-bottom: .5em
 }
 
 main {
   overflow: auto;
 }
 
-/* .socials {
+.socials {
   display: flex;
   flex-flow: row nowrap;
-  gap 1 em;
+  gap: 1em;
   justify-content: center;
-} */
+}
+
+
+.footer a {
+  color: #F4DDD5;
+  text-decoration: none;
+}
