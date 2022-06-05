@@ -10,10 +10,12 @@ Here is a brief description
 - Mongoose
 - DOTENV
 
-Front-End Repo: https://github.com/Jeal3R5/salonApp-frontend
-Back-end Repo: https://github.com/Jeal3R5/salonApp-backend
+Front-End Repo: https://github.com/Jeal3R5/salonApp-frontend 
+
+Back-end Repo: https://github.com/Jeal3R5/salonApp-backend 
 
 Netlify live site: https://taupe-gumption-930da0.netlify.app/
+
 Heroku live site: https://salonapp-backend-jr.herokuapp.com/
 
 Screenshots:
